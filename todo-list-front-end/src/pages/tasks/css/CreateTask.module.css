@@ -1,0 +1,19 @@
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.new div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

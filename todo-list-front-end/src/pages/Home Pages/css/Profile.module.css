@@ -1,0 +1,38 @@
+.profile{
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 12px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 3%;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+}
+
+.profile .profileedit{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile .profileedit button{
+    background-color: green;
+}
+
+.profile .profileedit button:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.profile::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .profile::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .profile::-webkit-scrollbar-thumb {
+    background: transparent;
+  }

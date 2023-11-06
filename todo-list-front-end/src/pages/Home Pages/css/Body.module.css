@@ -1,0 +1,46 @@
+.body{
+    border-radius: 12px;
+    width: 70%;
+    height: 93vh;
+    overflow-x: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1A2E;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.29);
+    padding: 1%;
+    width: 50%;
+    margin: 1%;
+}
+
+.uppertask, .lowertask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.uppertask, .lowertask h4 {
+    margin: 12px;
+}
+
+
+.body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .body::-webkit-scrollbar-thumb {
+    background: transparent;
+  }

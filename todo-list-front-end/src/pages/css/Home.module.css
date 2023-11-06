@@ -1,0 +1,29 @@
+
+.home, .no{
+    background-color: #1B2430;
+    height: 100vh;
+}
+
+.no{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.no .link{
+    margin: 12px;
+    text-decoration: none;
+    background-color: rgb(48, 175, 48);
+    color: white;
+    padding: 7px;
+    border-radius: 12px;
+}
+
+
+.main{
+    padding: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
